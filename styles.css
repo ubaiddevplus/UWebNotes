@@ -1,0 +1,31 @@
+body {
+    background: linear-gradient(to right, rgba(34, 4, 4, 0.991), rgb(68, 21, 4));
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+.ex1-card {
+    border: 1px solid #4d27ae;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+p.ex1-code {
+    color: rgb(161, 153, 35);
+    background-color: black;
+    text-align: center;
+    margin: 20px auto;
+    height: 100px;
+    width: 300px;
+    font-size: 1.5rem;
+}
+
+.ex1-result {
+    text-align: center;
+    margin: 20px auto;
+    height: 100px;
+    width: 300px;
+    color: black;
+    background-color: white;
+}

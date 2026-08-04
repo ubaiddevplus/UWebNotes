@@ -22,7 +22,6 @@ body {
 }
 
 .card {
-    min-width: 350px;
     min-height: 200px;
     max-height: 400px;
     max-width: 400px;
@@ -31,7 +30,6 @@ body {
     flex-direction: column;
     gap: 10px;
     border: 2px solid transparent;
-    margin: 0 auto;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(35, 14, 14, 0.674);
