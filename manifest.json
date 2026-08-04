@@ -1,0 +1,21 @@
+{
+  "name": "UWebNotes",
+  "short_name": "UWebNotes",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "images/index_imgs/html_img.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/index_imgs/html_img.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
+
