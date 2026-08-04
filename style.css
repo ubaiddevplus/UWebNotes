@@ -22,16 +22,19 @@ body {
 }
 
 .card {
+    min-height: 200px;
+    max-height: 400px;
+    max-width: 400px;
+    font-size: 18px;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    background-color: #3b3232;
+    border: 2px solid transparent;
+    margin: 0 auto;
+    padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(35, 14, 14, 0.674);
-    border: 2px solid transparent;
-    padding: 20px;
-    min-height: 200px;
-    font-size: 18px;
+    background-color: #3b3232;
     transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
 
 }
@@ -39,34 +42,37 @@ body {
 .card:hover {
     transform: translateY(-10px) scale(1.03);
     box-shadow: 0 8px 16px rgba(35, 14, 14, 0.674);
-    border-color: #6c5ce7;
+    border-color: #4832f0;
 }
 
 .card h2 {
     font-size: 22px;
     text-align: right;
-    color: #6c5ce7;
+    color: #4832f0;
 }
 
 .card a {
-    color: #6c5ce7;
     text-decoration: underline;
+    color: #4832f0;
+
 }
 
 footer {
+    width: 100%;
     position: fixed;
     bottom: 0;
-    width: 100%;
-    background-color: #2c0303;
-    color: white;
     text-align: center;
     padding: 10px 0;
+    background-color: #2c0303;
+    color: white;
 }
 
 .title-image {
-    margin: 0 auto;
     width: 20%;
     height: 20%;
+    max-width: 100px;
+    max-height: 100px;
+    margin: 0 auto;
     padding-top: 5px;
     border-radius: 20%;
     background: radial-gradient(circle, rgba(168, 146, 203, 0.11), rgba(53, 32, 158, 0.137));
