@@ -5,23 +5,32 @@ body {
     font-family: sans-serif;
 }
 
+header h1 {
+    font-family: sans-serif;
+    color: #37ac4f;
+    border-bottom: 2px;
+}
+
 a {
     color: rgb(140, 140, 219);
+    font-size: 1.2rem;
 }
 
 ul {
-    display: flex;
     text-align: left;
-    font-size: large;
     font-size: 1.5rem;
     width: 60%;
     min-width: 350px;
     max-width: 700px;
-    margin: 20PX auto;
+    margin: 20px auto;
+    padding-left: 0;
+    list-style-position: inside;
 }
 
+/* point 1 start */
+
 .ex1-card {
-    border: 1px solid #4d27ae;
+    border: 2px solid #4d27ae;
     width: 60%;
     min-width: 350px;
     max-width: 700px;
@@ -124,3 +133,63 @@ ul {
 }
 
 /* The example card result end */
+
+/* point 1 end */
+
+
+
+
+/*=================================*/
+/*=================================*/
+/*=================================*/
+/*=================================*/
+/*=================================*/
+/*=================================*/
+/*=================================*/
+
+
+
+
+/* point 2 start */
+
+table {
+    font-family: sans-serif;
+    font-size: 0.7rem;
+    border-collapse: collapse;
+    letter-spacing: 1px;
+    border: 2px solid #4d27ae;
+    width: 60%;
+    min-width: 350px;
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+th {
+    font-size: 0.9rem;
+    font-style: initial;
+}
+
+td,
+th {
+    border: 1px solid rgb(10, 100, 138);
+    padding: 8px 10px;
+}
+
+code {
+    font-family: monospace;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+
+.links-list {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-left: 90px;
+}
+
+.links-list li {
+    padding: 3px;
+}
