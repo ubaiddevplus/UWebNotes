@@ -10,6 +10,12 @@ body {
     margin: 0 auto;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 header h1 {
     font-family: Montserrat;
     color: #37ac4f;
