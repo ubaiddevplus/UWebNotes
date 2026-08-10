@@ -1,14 +1,19 @@
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background: linear-gradient(to right, rgba(34, 4, 4, 0.991), rgb(68, 21, 4));
     text-align: center;
     color: white;
     font-family: sans-serif;
+    margin: 0 auto;
 }
 
 header h1 {
-    font-family: sans-serif;
+    font-family: Montserrat;
     color: #37ac4f;
-    border-bottom: 2px;
+
 }
 
 a {
@@ -19,12 +24,6 @@ a {
 ul {
     text-align: left;
     font-size: 1.5rem;
-    width: 60%;
-    min-width: 350px;
-    max-width: 700px;
-    margin: 20px auto;
-    padding-left: 0;
-    list-style-position: inside;
 }
 
 /* point 1 start */
@@ -35,7 +34,6 @@ ul {
     min-width: 350px;
     max-width: 700px;
     border-radius: 10px;
-    margin: 20px auto;
 }
 
 
@@ -161,11 +159,11 @@ table {
     width: 60%;
     min-width: 350px;
     max-width: 700px;
-    margin: 20px auto;
 }
 
 th {
     font-size: 0.9rem;
+    background-color: #4d27ae46;
     font-style: initial;
 }
 
@@ -180,16 +178,4 @@ code {
     background: rgba(255, 255, 255, 0.1);
     padding: 2px 4px;
     border-radius: 4px;
-}
-
-
-.links-list {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    padding-left: 90px;
-}
-
-.links-list li {
-    padding: 3px;
 }
