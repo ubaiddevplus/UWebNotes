@@ -18,8 +18,6 @@ body {
     padding: 20px;
     margin: 0 auto;
     margin-bottom: 80px;
-
-
 }
 
 .cover-container {
@@ -71,6 +69,31 @@ body {
 .cover-container:hover .cover {
     transform: translateY(250px) rotate(-180deg);
     border-color: #2c0303;
+}
+
+@media (max-width: 600px) {
+
+    .cards-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, max-content));
+        gap: 10xpx;
+        max-width: 80%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+
+    .cover-container {
+        position: relative;
+        height: 40px;
+        min-height: 250px;
+        width: 200px;
+        max-width: 500px;
+    }
+
 }
 
 .card h2 {
