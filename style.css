@@ -15,10 +15,12 @@ body {
 
 header {
     grid-area: header;
+
 }
 
 main {
     grid-area: main;
+    margin-bottom: 20px;
 }
 
 nav {
@@ -127,7 +129,7 @@ footer {
 }
 
 .card h2 {
-    font-size: 22px;
+    font-size: 1.5rem;
     text-align: right;
     color: #4832f0;
 }
@@ -141,8 +143,7 @@ footer {
 
 
 .title-image {
-    width: 20%;
-    height: 20%;
+
     max-width: 100px;
     max-height: 100px;
     margin: 0 auto;
